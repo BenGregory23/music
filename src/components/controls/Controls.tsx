@@ -58,7 +58,7 @@ const Controls = ({
   };
 
   return (
-    <div className="flex w-screen absolute bottom-0 right-0 rounded-none bg-black space-x-5 p-7  border-gray-500 border-t ">
+    <div className="flex w-full absolute bottom-0 right-0 rounded-none bg-transparent space-x-5 p-7  ">
       <img src={music.image} className="rounded-md w-16 h-16 object-cover" />
 
       <div className="flex items-center space-x-2">
@@ -75,7 +75,7 @@ const Controls = ({
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="white"
-              className="w-10 h-10"
+              className="w-10 h-10 hover:bg-black"
             >
               <path
                 stroke-linecap="round"
